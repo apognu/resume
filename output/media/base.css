@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Regular.ttf');
+}
+
+/* Blocks and structure */
+
+@page {
+	orphans:4;
+	widows:2;
+}
+
+p, li, .block, .aside {
+	page-break-inside:avoid;
+}
+
+.block {
+	display:block;
+	clear:both;
+}
+
+/* Typography */
+
+html {
+  border-top: 6px solid #6980AE;
+  padding-top: 10px;
+}
+
+body {
+	font-family: 'Open Sans', 'Roboto';
+  font-weight: 300;
+	font-size:12px;
+  color: #222222;
+	line-height:1.3em;
+	padding-left:25px;
+	padding-right:10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+
+h1, h2, h3 {
+	position: relative;
+	margin-left: -25px;
+}
+
+h1 {
+	font-size:21px;
+	padding-top:0;
+	margin-top:0;
+	line-height:1em;
+	margin-bottom:30px;
+	padding-bottom:0em;
+	text-align:center;
+  font-weight: 300;
+}
+
+h2 {
+	font-size:14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+  padding-left: 20px;
+	margin-bottom: 15px;
+  margin-top: 0px;
+  border-bottom: 2px solid #6980AE;
+  clear: both;
+}
+
+div.intro h2 { background: url('cloud.png') left no-repeat; }
+.experience h2 { background: url('briefcase.png') left no-repeat; }
+.skills h2 { background: url('flag.png') left no-repeat; }
+.academic h2 { background: url('road.png') left no-repeat; }
+
+h2 em {
+  color: #6980AE;
+}
+
+h3 {
+	font-size:13px;
+  margin-top: 0;
+}
+
+h3 em {
+  font-size: 0.6em;
+  float: right;
+  background: #ACCEE6;
+  padding: 1px 4px;
+}
+
+h4 {
+	font-size:10px;
+	margin: 0.5em 0;
+}
+
+p {
+	text-align: justify;
+}
+
+li {
+	text-align: justify;
+	padding-right:40px;
+}
+
+a {
+	color:#444;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* Asides */
+
+.aside {
+	float:right;
+	width:150px;
+	margin: 0 0 4px 20px;
+	padding: 6px 14px;
+	overflow:hidden;
+  background: #ededed;
+  border: 1px solid #d7d7d7;
+}
+
+.aside h1, .aside h2, .aside h3 {
+	margin-left: 0px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.aside ul {
+	padding-left:18px;
+}
+
+.aside li {
+	padding-right:0px;
+}
+
+.aside blockquote {
+	padding:0;
+	margin:0;
+	text-indent: 1em;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+/* Specifics */
+
+body > div.section:first-of-type {
+  margin-bottom: 50px;
+}
+
+div.intro {
+  width: 70%;
+}
+
+div.contact p {
+  text-align: center;
+}
+
+div.contact ul, div.contact li {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+div.contact img {
+  border: 1px solid #989898;
+  padding: 1px;
+  width: 150px;
+  height: 150px;
+  border: 0;
+}
+
+div.aside {
+  position: relative;
+  z-index: 1000;
+}
+
+div.experience > div:not(.title), div.academic > div:not(.title), div.missions > div:not(.title) {
+  width: 45%;
+}
+
+div.left:not(.intro) {
+  clear: both;
+}
+
+div.experience h3, div.academic h3, div.missions h3 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+div.experience h4, div.academic h4, div.missions h4 {
+  position: relative;
+  left: -25px;
+  color: #787878;
+  font-size: 9px;
+  margin-top: 0;
+}
+
+div.footer {
+  padding-top: 30px;
+}
+
+div.footer p {
+  position: relative;
+  left: -12.5px;
+  border-top: 6px solid #6980AE;
+  padding-top: 5px;
+  text-align: center;
+}
+
+div.skills div.skillgroup {
+  width: 33%;
+  float: left;
+}
+
+div.skills div.skillgroup h3 {
+  margin-left: 0;
+  margin-bottom: -4px;
+  font-size: 1.2em;
+}
+
+div.skills ul {
+  padding-left: 0;
+  margin-right: 20px;
+}
+
+div.skills li {
+  text-align: center;
+  list-style: none;
+  padding: 4px 0;
+  margin-bottom: 4px;
+  background: #efefef;
+  border: 1px solid #fcfcfc;
+}
+
+div.skills div:nth-child(1) li { background: #96B7FA; }
+div.skills div:nth-child(2) li { background: #336699; color: white; }
+div.skills div:nth-child(3) li { background: #ACCEE6; }
