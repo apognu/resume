@@ -29,7 +29,7 @@ func main() {
 
 	ioutil.WriteFile("./output/resume.html", []byte(Output), 0644)
 
-	wk := exec.Command("wkhtmltopdf", "./output/resume.html", "./output/resume.pdf")
+	wk := exec.Command("wkhtmltopdf", "-T", "10mm", "-R", "10mm", "-B", "10mm", "-L", "10mm", "./output/resume.html", "./output/resume.pdf")
 	wk.Run()
 }
 
