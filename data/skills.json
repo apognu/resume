@@ -1,0 +1,69 @@
+[
+  {
+    "section": "General",
+    "skills": [
+      "Infrastructure design",
+      "Systems architecture",
+      "High availability",
+      "Continuous integration/deployment",
+      "Infrastructure/application security"
+    ]
+  },
+  {
+    "section": "Programming languages",
+    "skills": [
+      "Rust",
+      "Go",
+      "Ruby",
+      "Python",
+      "Elixir"
+    ]
+  },
+  {
+    "section": "Cloud Providers",
+    "skills": [
+      "Google Cloud Platform",
+      "AWS"
+    ]
+  },
+  {
+    "section": "Execution engines",
+    "skills": [
+      "Kubernetes",
+      "Docker"
+    ]
+  },
+  {
+    "section": "Infrastructure as code",
+    "skills": [
+      "Terraform",
+      "Pulumi",
+      "Ansible",
+      "cdktf"
+    ]
+  },
+  {
+    "section": "Databases",
+    "skills": [
+      "MySQL",
+      "PostgreSQL",
+      "BigQuery",
+      "Athena",
+      "Elasticsearch"
+    ]
+  },
+  {
+    "section": "Operating systems",
+    "skills": [
+      "Linux"
+    ]
+  },
+  {
+    "section": "Web",
+    "skills": [
+      "Ruby on Rails",
+      "Phoenix",
+      "Vue.js"
+    ]
+  }
+]

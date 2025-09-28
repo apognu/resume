@@ -1,0 +1,53 @@
+[
+  {
+    "company": "Ready Education",
+    "logo": "../assets/readyeducation.png",
+    "year": "2021-2024",
+    "title": "Lead platform architect - Staff engineer",
+    "countries": "France, United States, Canada, United Kingdom, Netherlands",
+    "summary": "Ready Education is a technology company specializing in providing solutions for educational institutions to enhance student engagement and communication, composed of five products across France, the United States, Canada, the United Kingdom and the Netherlands. As the lead platform architect, I actively participated in making the strategic technical decisions, entrusted by the CTO to lead and oversee key aspects of the company's technical direction.",
+    "metrics": "7M users, 250M monthly sessions",
+    "responsibilities": [
+        "Provided strategic technical leadership to shape the company's direction.",
+        "Designed and implemented robust infrastructure solutions for scalability and performance, as business required it.",
+        "Served as a subject matter expert, offering guidance and support to various technical teams.",
+        "Collaborated closely with cross-functional teams to ensure alignment with business objectives.",
+        "Identified and analyzed system anomalies, offering actionable insights to technical teams for issue resolution.",
+        "Held internal training sessions on complex technical subjects to promote knowledge sharing and engineering excellence.",
+        "Continued to lead the technical matters of one of the products, including infrastructure management and backend development.",
+        "Executed cost-saving initiatives on the technology front, optimizing operational efficiency while ensuring seamless alignment with business requirements (over $15K/month).",
+        "Reverse engineered black-box software components, facilitating their continued exploitation and maintenance by cross-functional teams.",
+        "Streamlined business and technical analytics data gathering and availability across five disparate products to help the business conduct a data-driven strategy",
+        "Drove significant process enhancements through targeted SQL optimizations, successfully reducing their footprint by more than 10x."
+    ]
+  },
+  {
+    "company": "AppScho",
+    "logo": "../assets/appscho.png",
+    "year": "2015-2024",
+    "title": "Co-founder - CTO - Technical lead",
+    "countries": "France",
+    "extra": "Acquired in Dec 2021 by largest US-based competitor, Ready Education.",
+    "summary": "AppScho is a software company focused on developing innovative mobile applications for educational institutions, streamlining communication and engagement between students and the administration.",
+    "metrics": "320 users, 20M monthly sessions",
+    "responsibilities": [
+      "Founded, established and led the company, in both technical and product strategies.",
+      "Developed a sophisticated real-time ETL (Extract, Transform, Load) system that aggregated data from diverse educational institutions’ information systems and delivered it to mobile devices.",
+      "Designed and implemented a highly resilient infrastructure, enabling the seamless delivery of institutional data to more than 300 000 students globally, with a focus on scalability and performance.",
+      "Managed a team of seven engineers towards implementing, deploying and maintaining backend systems and mobile applications for more than 100 education institutions."
+    ]
+  },
+  {
+    "company": "Smile",
+    "logo": "../assets/smile.png",
+    "year": "2012-2015",
+    "title": "Infrastructure architect - System/DevOps engineer",
+    "countries": "France, Switzerland, Ivory Coast",
+    "summary": "Smile is a global IT consulting and development company specializing in open-source software solutions. As the architect of the Systems Business Unit, I played a key role in designing and implementing the processes and solutions offered to our customers.",
+    "responsibilities": [
+      "Designed and implemented resilient infrastructures, including the internet connectivity backbone for the leading ISP in Ivory Coast across all physical media.",
+      "Offered technical expertise and implementation support to customers, leveraging a wide array of Open Source solutions (communication systems, database performance, virtualization, DevOps processes, etc.).",
+      "Led technology training sessions, both internally and for customers, facilitating knowledge transfer and skill development."
+    ]
+  }
+]

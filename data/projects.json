@@ -1,0 +1,17 @@
+[
+  {
+    "name": "motiva",
+    "description": "Fast sanctioned entities matching API",
+    "url": "https://github.com/apognu/motiva"
+  },
+  {
+    "name": "tuigreet",
+    "description": "TUI login manager for Linux systems",
+    "url": "https://github.com/apognu/tuigreet"
+  },
+  {
+    "name": "defcon",
+    "description": "Uptime monitoring platform",
+    "url": "https://github.com/apognu/defcon"
+  }
+]

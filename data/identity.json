@@ -1,0 +1,15 @@
+{
+  "firstname": "Antoine",
+  "lastname": "POPINEAU",
+  "title": "Infrastructure architect and staff engineer",
+  "picture": "../assets/picture.jpg",
+  "location": "Paris, France",
+  "email": "antoine@popineau.eu",
+  "phone": "+33 7 52 62 02 54",
+  "websites": [
+    { "url": "https://popineau.eu", "icon": "../assets/website.svg" },
+    { "url": "https://github.com/apognu", "icon": "../assets/github.svg" },
+    { "url": "https://linkedin.com/in/antoinepopineau", "icon": "../assets/linkedin.svg" }
+  ],
+  "summary": "Experienced and results-driven engineer with a strong foundation in infrastructure engineering and design. Proficient in multiple programming languages and well-versed in managing complex systems, I thrive on solving complex technical challenges, and on helping team members reach their full technical potential. A dedicated professional with a passion for technological innovations."
+}

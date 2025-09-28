@@ -1,0 +1,36 @@
+name: Build resume
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v4
+      - run: sudo apt install -y fonts-roboto
+      - run: typst compile main.typ 'Antoine POPINEAU - Resume.pdf'
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'Antoine POPINEAU - Resume'
+          path: |
+            *.pdf
+
+      - uses: EndBug/latest-tag@v1
+        with:
+          ref: latest
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: Antoine Popineau - Resume
+          tag_name: latest
+          overwrite_files: true
+          make_latest: true
+          files: |
+            *.pdf
